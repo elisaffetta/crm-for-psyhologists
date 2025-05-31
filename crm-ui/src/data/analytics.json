@@ -1,0 +1,129 @@
+{
+  "summary": {
+    "totalClients": 6,
+    "activeClients": 4,
+    "completedClients": 1,
+    "pausedClients": 1,
+    "totalSessions": 12,
+    "completedSessions": 7,
+    "scheduledSessions": 5,
+    "averageSessionsPerClient": 2,
+    "clientRetentionRate": 85,
+    "averageClientProgress": 72
+  },
+  "clientProgress": [
+    {
+      "clientId": "c1",
+      "name": "Анна Петрова",
+      "progress": 75,
+      "emotionalState": [
+        {"date": "2025-05-01", "value": 4},
+        {"date": "2025-05-08", "value": 5},
+        {"date": "2025-05-15", "value": 6},
+        {"date": "2025-05-22", "value": 7},
+        {"date": "2025-05-29", "value": 8}
+      ]
+    },
+    {
+      "clientId": "c2",
+      "name": "Иван Сидоров",
+      "progress": 45,
+      "emotionalState": [
+        {"date": "2025-05-03", "value": 3},
+        {"date": "2025-05-10", "value": 3},
+        {"date": "2025-05-17", "value": 4},
+        {"date": "2025-05-24", "value": 5},
+        {"date": "2025-05-31", "value": 5}
+      ]
+    },
+    {
+      "clientId": "c3",
+      "name": "Елена Смирнова",
+      "progress": 100,
+      "emotionalState": [
+        {"date": "2025-04-05", "value": 5},
+        {"date": "2025-04-12", "value": 6},
+        {"date": "2025-04-19", "value": 7},
+        {"date": "2025-04-26", "value": 8},
+        {"date": "2025-05-03", "value": 9}
+      ]
+    },
+    {
+      "clientId": "c4",
+      "name": "Михаил Козлов",
+      "progress": 25,
+      "emotionalState": [
+        {"date": "2025-05-12", "value": 3},
+        {"date": "2025-05-19", "value": 4},
+        {"date": "2025-05-26", "value": 4}
+      ]
+    },
+    {
+      "clientId": "c5",
+      "name": "Ольга Новикова",
+      "progress": 60,
+      "emotionalState": [
+        {"date": "2025-04-03", "value": 4},
+        {"date": "2025-04-10", "value": 5},
+        {"date": "2025-04-17", "value": 6},
+        {"date": "2025-04-24", "value": 6},
+        {"date": "2025-05-01", "value": 5}
+      ]
+    },
+    {
+      "clientId": "c6",
+      "name": "Дмитрий Волков",
+      "progress": 50,
+      "emotionalState": [
+        {"date": "2025-05-07", "value": 2},
+        {"date": "2025-05-14", "value": 3},
+        {"date": "2025-05-21", "value": 4},
+        {"date": "2025-05-28", "value": 5}
+      ]
+    }
+  ],
+  "sessionsByMonth": [
+    {"month": "Январь", "count": 8},
+    {"month": "Февраль", "count": 12},
+    {"month": "Март", "count": 15},
+    {"month": "Апрель", "count": 18},
+    {"month": "Май", "count": 22},
+    {"month": "Июнь", "count": 5}
+  ],
+  "therapyTypeDistribution": [
+    {"type": "Когнитивно-поведенческая терапия", "count": 2, "percentage": 33.3},
+    {"type": "Психоанализ", "count": 1, "percentage": 16.7},
+    {"type": "Семейная терапия", "count": 1, "percentage": 16.7},
+    {"type": "Гештальт-терапия", "count": 1, "percentage": 16.7},
+    {"type": "Экзистенциальная терапия", "count": 1, "percentage": 16.7}
+  ],
+  "programEffectiveness": [
+    {"programId": "p1", "name": "Программа управления тревожностью", "effectiveness": 85},
+    {"programId": "p2", "name": "Программа работы с депрессией", "effectiveness": 80},
+    {"programId": "p3", "name": "Программа семейной терапии", "effectiveness": 75},
+    {"programId": "p4", "name": "Программа управления стрессом", "effectiveness": 90}
+  ],
+  "aiDetectedAnomalies": [
+    {
+      "clientId": "c5",
+      "name": "Ольга Новикова",
+      "anomalyType": "Снижение эмоционального состояния",
+      "description": "Замечено снижение эмоционального состояния с 6 до 5 за последний месяц. Рекомендуется обратить внимание и обсудить на следующей сессии.",
+      "detectedAt": "2025-05-02"
+    },
+    {
+      "clientId": "c2",
+      "name": "Иван Сидоров",
+      "anomalyType": "Медленный прогресс",
+      "description": "Прогресс клиента значительно ниже среднего для данного типа терапии и количества сессий. Рекомендуется пересмотреть терапевтический подход.",
+      "detectedAt": "2025-05-25"
+    },
+    {
+      "clientId": "c6",
+      "name": "Дмитрий Волков",
+      "anomalyType": "Высокий уровень стресса",
+      "description": "Несмотря на положительную динамику, уровень стресса остается высоким. Рекомендуется дополнительно включить техники релаксации.",
+      "detectedAt": "2025-05-30"
+    }
+  ]
+}

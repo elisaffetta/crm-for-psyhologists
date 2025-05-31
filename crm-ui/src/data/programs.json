@@ -1,0 +1,386 @@
+[
+  {
+    "id": "p1",
+    "title": "Программа управления тревожностью",
+    "description": "Комплексная программа для работы с тревожными расстройствами, включающая когнитивно-поведенческие техники, практики осознанности и релаксации.",
+    "duration": "12 недель",
+    "therapyType": "Когнитивно-поведенческая терапия",
+    "effectiveness": 85,
+    "createdAt": "2024-01-15",
+    "stages": [
+      {
+        "id": "s1p1",
+        "title": "Диагностика и психоэдукация",
+        "description": "Оценка уровня тревожности, информирование о механизмах тревоги и принципах КПТ.",
+        "duration": "2 недели",
+        "materials": [
+          {
+            "id": "m1s1p1",
+            "title": "Шкала тревожности Бека",
+            "type": "questionnaire",
+            "url": "/materials/beck-anxiety-inventory.pdf"
+          },
+          {
+            "id": "m2s1p1",
+            "title": "Что такое тревожность?",
+            "type": "article",
+            "url": "/materials/what-is-anxiety.pdf"
+          }
+        ]
+      },
+      {
+        "id": "s2p1",
+        "title": "Техники релаксации и дыхания",
+        "description": "Обучение техникам прогрессивной мышечной релаксации и диафрагмального дыхания.",
+        "duration": "3 недели",
+        "materials": [
+          {
+            "id": "m1s2p1",
+            "title": "Аудиогид по прогрессивной мышечной релаксации",
+            "type": "audio",
+            "url": "/materials/progressive-muscle-relaxation.mp3"
+          },
+          {
+            "id": "m2s2p1",
+            "title": "Дневник дыхательных практик",
+            "type": "worksheet",
+            "url": "/materials/breathing-log.pdf"
+          }
+        ]
+      },
+      {
+        "id": "s3p1",
+        "title": "Когнитивная реструктуризация",
+        "description": "Выявление и изменение негативных автоматических мыслей и убеждений.",
+        "duration": "4 недели",
+        "materials": [
+          {
+            "id": "m1s3p1",
+            "title": "Таблица автоматических мыслей",
+            "type": "worksheet",
+            "url": "/materials/automatic-thoughts-worksheet.pdf"
+          },
+          {
+            "id": "m2s3p1",
+            "title": "Видео: Техника оспаривания негативных мыслей",
+            "type": "video",
+            "url": "/materials/challenging-negative-thoughts.mp4"
+          }
+        ]
+      },
+      {
+        "id": "s4p1",
+        "title": "Экспозиционная терапия",
+        "description": "Постепенное столкновение с пугающими ситуациями в безопасной обстановке.",
+        "duration": "3 недели",
+        "materials": [
+          {
+            "id": "m1s4p1",
+            "title": "Иерархия тревожных ситуаций",
+            "type": "worksheet",
+            "url": "/materials/anxiety-hierarchy.pdf"
+          },
+          {
+            "id": "m2s4p1",
+            "title": "Дневник экспозиций",
+            "type": "worksheet",
+            "url": "/materials/exposure-diary.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p2",
+    "title": "Программа работы с депрессией",
+    "description": "Структурированная программа для преодоления депрессивных состояний, основанная на когнитивно-поведенческой терапии и поведенческой активации.",
+    "duration": "16 недель",
+    "therapyType": "Когнитивно-поведенческая терапия",
+    "effectiveness": 80,
+    "createdAt": "2024-02-10",
+    "stages": [
+      {
+        "id": "s1p2",
+        "title": "Диагностика и психоэдукация",
+        "description": "Оценка уровня депрессии, информирование о природе депрессии и принципах терапии.",
+        "duration": "2 недели",
+        "materials": [
+          {
+            "id": "m1s1p2",
+            "title": "Шкала депрессии Бека",
+            "type": "questionnaire",
+            "url": "/materials/beck-depression-inventory.pdf"
+          },
+          {
+            "id": "m2s1p2",
+            "title": "Понимание депрессии",
+            "type": "article",
+            "url": "/materials/understanding-depression.pdf"
+          }
+        ]
+      },
+      {
+        "id": "s2p2",
+        "title": "Поведенческая активация",
+        "description": "Планирование и выполнение приятных и значимых активностей для повышения настроения.",
+        "duration": "4 недели",
+        "materials": [
+          {
+            "id": "m1s2p2",
+            "title": "Список приятных активностей",
+            "type": "worksheet",
+            "url": "/materials/pleasant-activities-list.pdf"
+          },
+          {
+            "id": "m2s2p2",
+            "title": "Дневник активностей и настроения",
+            "type": "worksheet",
+            "url": "/materials/activity-mood-log.pdf"
+          }
+        ]
+      },
+      {
+        "id": "s3p2",
+        "title": "Когнитивная работа",
+        "description": "Выявление и изменение негативных мыслей и убеждений, характерных для депрессии.",
+        "duration": "6 недель",
+        "materials": [
+          {
+            "id": "m1s3p2",
+            "title": "Когнитивные искажения при депрессии",
+            "type": "article",
+            "url": "/materials/cognitive-distortions-depression.pdf"
+          },
+          {
+            "id": "m2s3p2",
+            "title": "Рабочий лист по когнитивной реструктуризации",
+            "type": "worksheet",
+            "url": "/materials/cognitive-restructuring-worksheet.pdf"
+          }
+        ]
+      },
+      {
+        "id": "s4p2",
+        "title": "Профилактика рецидивов",
+        "description": "Закрепление полученных навыков и разработка плана поддержания результатов.",
+        "duration": "4 недели",
+        "materials": [
+          {
+            "id": "m1s4p2",
+            "title": "План профилактики рецидивов",
+            "type": "worksheet",
+            "url": "/materials/relapse-prevention-plan.pdf"
+          },
+          {
+            "id": "m2s4p2",
+            "title": "Видео: Поддержание психического благополучия",
+            "type": "video",
+            "url": "/materials/maintaining-mental-wellbeing.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p3",
+    "title": "Программа семейной терапии",
+    "description": "Программа для улучшения коммуникации и взаимоотношений в семье, разрешения конфликтов и укрепления семейных связей.",
+    "duration": "10 недель",
+    "therapyType": "Семейная терапия",
+    "effectiveness": 75,
+    "createdAt": "2024-03-05",
+    "stages": [
+      {
+        "id": "s1p3",
+        "title": "Диагностика семейной системы",
+        "description": "Оценка семейной динамики, паттернов коммуникации и выявление проблемных областей.",
+        "duration": "2 недели",
+        "materials": [
+          {
+            "id": "m1s1p3",
+            "title": "Опросник семейной динамики",
+            "type": "questionnaire",
+            "url": "/materials/family-dynamics-questionnaire.pdf"
+          },
+          {
+            "id": "m2s1p3",
+            "title": "Генограмма: инструкция по составлению",
+            "type": "article",
+            "url": "/materials/genogram-instructions.pdf"
+          }
+        ]
+      },
+      {
+        "id": "s2p3",
+        "title": "Улучшение коммуникации",
+        "description": "Обучение эффективным навыкам коммуникации и активного слушания.",
+        "duration": "3 недели",
+        "materials": [
+          {
+            "id": "m1s2p3",
+            "title": "Техники активного слушания",
+            "type": "article",
+            "url": "/materials/active-listening-techniques.pdf"
+          },
+          {
+            "id": "m2s2p3",
+            "title": "Упражнения для улучшения коммуникации",
+            "type": "worksheet",
+            "url": "/materials/communication-exercises.pdf"
+          }
+        ]
+      },
+      {
+        "id": "s3p3",
+        "title": "Разрешение конфликтов",
+        "description": "Обучение конструктивным способам разрешения семейных конфликтов.",
+        "duration": "3 недели",
+        "materials": [
+          {
+            "id": "m1s3p3",
+            "title": "Модель разрешения конфликтов",
+            "type": "article",
+            "url": "/materials/conflict-resolution-model.pdf"
+          },
+          {
+            "id": "m2s3p3",
+            "title": "Дневник конфликтных ситуаций",
+            "type": "worksheet",
+            "url": "/materials/conflict-diary.pdf"
+          }
+        ]
+      },
+      {
+        "id": "s4p3",
+        "title": "Укрепление семейных связей",
+        "description": "Практики для укрепления эмоциональной близости и создания позитивных семейных ритуалов.",
+        "duration": "2 недели",
+        "materials": [
+          {
+            "id": "m1s4p3",
+            "title": "Создание семейных ритуалов",
+            "type": "article",
+            "url": "/materials/family-rituals.pdf"
+          },
+          {
+            "id": "m2s4p3",
+            "title": "Планирование семейных активностей",
+            "type": "worksheet",
+            "url": "/materials/family-activities-planner.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p4",
+    "title": "Программа управления стрессом",
+    "description": "Комплексная программа для развития навыков управления стрессом и повышения психологической устойчивости.",
+    "duration": "8 недель",
+    "therapyType": "Интегративная терапия",
+    "effectiveness": 90,
+    "createdAt": "2024-04-20",
+    "stages": [
+      {
+        "id": "s1p4",
+        "title": "Оценка стресса и психоэдукация",
+        "description": "Диагностика уровня стресса и информирование о механизмах стрессовой реакции.",
+        "duration": "1 неделя",
+        "materials": [
+          {
+            "id": "m1s1p4",
+            "title": "Шкала воспринимаемого стресса",
+            "type": "questionnaire",
+            "url": "/materials/perceived-stress-scale.pdf"
+          },
+          {
+            "id": "m2s1p4",
+            "title": "Физиология стресса",
+            "type": "article",
+            "url": "/materials/stress-physiology.pdf"
+          }
+        ]
+      },
+      {
+        "id": "s2p4",
+        "title": "Техники релаксации",
+        "description": "Обучение различным техникам релаксации для снижения физиологического напряжения.",
+        "duration": "2 недели",
+        "materials": [
+          {
+            "id": "m1s2p4",
+            "title": "Аудиогид по глубокой релаксации",
+            "type": "audio",
+            "url": "/materials/deep-relaxation-guide.mp3"
+          },
+          {
+            "id": "m2s2p4",
+            "title": "Дневник практик релаксации",
+            "type": "worksheet",
+            "url": "/materials/relaxation-log.pdf"
+          }
+        ]
+      },
+      {
+        "id": "s3p4",
+        "title": "Практики осознанности",
+        "description": "Обучение практикам осознанности (майндфулнесс) для улучшения саморегуляции.",
+        "duration": "2 недели",
+        "materials": [
+          {
+            "id": "m1s3p4",
+            "title": "Введение в практику осознанности",
+            "type": "article",
+            "url": "/materials/mindfulness-introduction.pdf"
+          },
+          {
+            "id": "m2s3p4",
+            "title": "Аудиогиды по медитации осознанности",
+            "type": "audio",
+            "url": "/materials/mindfulness-meditations.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s4p4",
+        "title": "Когнитивные стратегии",
+        "description": "Работа с мышлением и установками, усиливающими стресс.",
+        "duration": "2 недели",
+        "materials": [
+          {
+            "id": "m1s4p4",
+            "title": "Когнитивные искажения при стрессе",
+            "type": "article",
+            "url": "/materials/stress-cognitive-distortions.pdf"
+          },
+          {
+            "id": "m2s4p4",
+            "title": "Рабочий лист по переоценке стрессовых ситуаций",
+            "type": "worksheet",
+            "url": "/materials/stress-reappraisal-worksheet.pdf"
+          }
+        ]
+      },
+      {
+        "id": "s5p4",
+        "title": "Интеграция и профилактика",
+        "description": "Создание персонального плана управления стрессом для долгосрочного применения.",
+        "duration": "1 неделя",
+        "materials": [
+          {
+            "id": "m1s5p4",
+            "title": "Шаблон персонального плана управления стрессом",
+            "type": "worksheet",
+            "url": "/materials/personal-stress-management-plan.pdf"
+          },
+          {
+            "id": "m2s5p4",
+            "title": "Видео: Поддержание стрессоустойчивости",
+            "type": "video",
+            "url": "/materials/maintaining-stress-resilience.mp4"
+          }
+        ]
+      }
+    ]
+  }
+]

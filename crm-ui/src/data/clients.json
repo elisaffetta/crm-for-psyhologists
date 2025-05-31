@@ -1,0 +1,131 @@
+[
+  {
+    "id": "c1",
+    "firstName": "Анна",
+    "lastName": "Петрова",
+    "email": "anna.petrova@example.com",
+    "phone": "+7 (900) 123-45-67",
+    "avatar": "https://randomuser.me/api/portraits/women/1.jpg",
+    "status": "active",
+    "therapyType": "Когнитивно-поведенческая терапия",
+    "startDate": "2024-03-15",
+    "nextSession": "2025-06-05T14:00:00",
+    "totalSessions": 12,
+    "completedSessions": 8,
+    "notes": "Работаем над тревожностью и паническими атаками. Прогресс заметен, но требуется дальнейшая работа.",
+    "emotionalState": [
+      {"date": "2025-05-01", "value": 4},
+      {"date": "2025-05-08", "value": 5},
+      {"date": "2025-05-15", "value": 6},
+      {"date": "2025-05-22", "value": 7},
+      {"date": "2025-05-29", "value": 8}
+    ]
+  },
+  {
+    "id": "c2",
+    "firstName": "Иван",
+    "lastName": "Сидоров",
+    "email": "ivan.sidorov@example.com",
+    "phone": "+7 (900) 987-65-43",
+    "avatar": "https://randomuser.me/api/portraits/men/2.jpg",
+    "status": "active",
+    "therapyType": "Психоанализ",
+    "startDate": "2024-04-10",
+    "nextSession": "2025-06-07T10:00:00",
+    "totalSessions": 20,
+    "completedSessions": 6,
+    "notes": "Работаем с детскими травмами. Клиент начал открываться, но процесс идет медленно.",
+    "emotionalState": [
+      {"date": "2025-05-03", "value": 3},
+      {"date": "2025-05-10", "value": 3},
+      {"date": "2025-05-17", "value": 4},
+      {"date": "2025-05-24", "value": 5},
+      {"date": "2025-05-31", "value": 5}
+    ]
+  },
+  {
+    "id": "c3",
+    "firstName": "Елена",
+    "lastName": "Смирнова",
+    "email": "elena.smirnova@example.com",
+    "phone": "+7 (900) 555-77-99",
+    "avatar": "https://randomuser.me/api/portraits/women/3.jpg",
+    "status": "completed",
+    "therapyType": "Семейная терапия",
+    "startDate": "2024-01-20",
+    "nextSession": null,
+    "totalSessions": 15,
+    "completedSessions": 15,
+    "notes": "Курс терапии успешно завершен. Клиент отмечает значительное улучшение отношений в семье.",
+    "emotionalState": [
+      {"date": "2025-04-05", "value": 5},
+      {"date": "2025-04-12", "value": 6},
+      {"date": "2025-04-19", "value": 7},
+      {"date": "2025-04-26", "value": 8},
+      {"date": "2025-05-03", "value": 9}
+    ]
+  },
+  {
+    "id": "c4",
+    "firstName": "Михаил",
+    "lastName": "Козлов",
+    "email": "mikhail.kozlov@example.com",
+    "phone": "+7 (900) 111-22-33",
+    "avatar": "https://randomuser.me/api/portraits/men/4.jpg",
+    "status": "active",
+    "therapyType": "Гештальт-терапия",
+    "startDate": "2024-05-05",
+    "nextSession": "2025-06-03T16:30:00",
+    "totalSessions": 10,
+    "completedSessions": 2,
+    "notes": "Новый клиент. Работаем с профессиональным выгоранием. Требуется более глубокая диагностика.",
+    "emotionalState": [
+      {"date": "2025-05-12", "value": 3},
+      {"date": "2025-05-19", "value": 4},
+      {"date": "2025-05-26", "value": 4}
+    ]
+  },
+  {
+    "id": "c5",
+    "firstName": "Ольга",
+    "lastName": "Новикова",
+    "email": "olga.novikova@example.com",
+    "phone": "+7 (900) 444-55-66",
+    "avatar": "https://randomuser.me/api/portraits/women/5.jpg",
+    "status": "paused",
+    "therapyType": "Когнитивно-поведенческая терапия",
+    "startDate": "2024-02-15",
+    "nextSession": null,
+    "totalSessions": 12,
+    "completedSessions": 6,
+    "notes": "Терапия приостановлена по просьбе клиента (финансовые трудности). Планируем возобновить через 2 месяца.",
+    "emotionalState": [
+      {"date": "2025-04-03", "value": 4},
+      {"date": "2025-04-10", "value": 5},
+      {"date": "2025-04-17", "value": 6},
+      {"date": "2025-04-24", "value": 6},
+      {"date": "2025-05-01", "value": 5}
+    ]
+  },
+  {
+    "id": "c6",
+    "firstName": "Дмитрий",
+    "lastName": "Волков",
+    "email": "dmitry.volkov@example.com",
+    "phone": "+7 (900) 777-88-99",
+    "avatar": "https://randomuser.me/api/portraits/men/6.jpg",
+    "status": "active",
+    "therapyType": "Экзистенциальная терапия",
+    "startDate": "2024-03-01",
+    "nextSession": "2025-06-04T18:00:00",
+    "totalSessions": 15,
+    "completedSessions": 7,
+    "notes": "Работаем с экзистенциальным кризисом после потери близкого человека. Прогресс медленный, но стабильный.",
+    "emotionalState": [
+      {"date": "2025-05-07", "value": 2},
+      {"date": "2025-05-14", "value": 3},
+      {"date": "2025-05-21", "value": 4},
+      {"date": "2025-05-28", "value": 5}
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* iOS-подобные стили */
+@layer base {
+  html {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'San Francisco', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    @apply bg-cloud-white text-ios-dark-gray min-h-screen;
+  }
+}
+
+@layer components {
+  /* iOS-подобные кнопки */
+  .btn-ios {
+    @apply rounded-full px-5 py-2 font-medium transition-all duration-300 focus:outline-none;
+  }
+  
+  .btn-ios-primary {
+    @apply btn-ios bg-ios-blue text-white hover:bg-opacity-90;
+  }
+  
+  .btn-ios-secondary {
+    @apply btn-ios bg-ios-light-gray text-ios-dark-gray hover:bg-opacity-90;
+  }
+  
+  /* iOS-подобные карточки */
+  .card-ios {
+    @apply bg-white rounded-ios shadow-ios p-4;
+  }
+  
+  /* iOS-подобные инпуты */
+  .input-ios {
+    @apply rounded-lg border border-ios-light-gray bg-white px-4 py-2 focus:border-ios-blue focus:outline-none;
+  }
+  
+  /* iOS-подобные модальные окна */
+  .modal-ios {
+    @apply bg-white/80 backdrop-blur-ios rounded-ios-lg shadow-ios-strong p-6;
+  }
+  
+  /* iOS-подобный таб-бар */
+  .tab-bar-ios {
+    @apply fixed bottom-0 left-0 right-0 bg-white/90 backdrop-blur-ios shadow-ios flex justify-around items-center py-2 px-4;
+  }
+  
+  .tab-item-ios {
+    @apply flex flex-col items-center justify-center text-ios-gray;
+  }
+  
+  .tab-item-ios.active {
+    @apply text-ios-blue;
+  }
+}
